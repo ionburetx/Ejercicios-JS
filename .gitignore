@@ -1,4 +1,6 @@
-**/.*
+#Si pongo el **/.* (Linea 1) hace que no se suban a mi repositorio git los archivos que empiezen con un . 
+# En el caso de que quiera que un archivo que empieza con un . en concreto se suba, podemos escribir "!(nombre del archivo que quiero)" en este caso (!.gitignore) en la linea 2
+**/.* 
 !.gitignore
 !**/.gitkeep
 
